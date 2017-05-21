@@ -1,0 +1,129 @@
+/* HEADER STARTS HERE */
+header h1
+{
+ font-family: serif;
+  float:left;
+}
+header h1 #P1
+{
+font-family: serif;
+ display: inline-block;
+  font-size:10px;
+}
+header h1 #P2
+{
+  font-family: serif;
+display: inline-block;
+ font-weight: lighter;
+
+}
+header nav
+{
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+}
+header nav ul li
+{
+  display: inline-block;
+  margin-left:10px;
+}
+header nav ul li a
+{
+  text-decoration: none;
+  color: lightgrey;
+}
+header nav ul li a:hover
+{
+    color:#2c3e50;
+}
+
+#backimg
+{
+  background-image: url(alex-siale-95113.jpg);
+  background-color: white;
+  background-size:cover ;
+  clear: both;
+  width:100%;
+  height: 100%;
+  padding-top:200px;
+  padding-bottom:120px;
+  margin-top:100px;
+
+}
+#backimg h2
+{
+  text-align: center;
+  color: white;
+background-color:#7f8c8d;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  border-radius:10px;
+  float: right;
+  margin-right:590px;
+}
+#backimg p
+{
+  text-align: center;
+  color: white;
+  clear: both;
+  padding:10px;
+}
+
+/* HEADER ENDS HERE */
+/* SECTION STARTS HERE */
+#section
+{
+  padding-left:200px;
+  display:inline-block;
+}
+#section #sec1
+{
+  width:400px;
+  float: left;
+}
+#section input
+{
+  background-color:#051230;
+  padding:5px;
+  padding-right:10px;
+  padding-left:10px;
+  color: white;
+}
+#section #sec2
+{
+  width:400px;
+  padding-right:50px;
+  padding-left:80px;
+  float: right;
+  margin-right:200px;
+}
+#section #sec1 p{
+  font-size: 13px;
+}
+#section #sec2 p
+{
+  font-size: 13px;
+}
+
+#lower
+{
+
+  padding-left:300px;
+  width:60%;
+}
+#lower p::before
+{
+
+  display: inline-block;
+  content:url(comma.png);
+  padding-left:20px;
+  padding-right:30px;
+}
+/*#lower p{
+  display: inline-block;
+  background-color:lightgrey;
+}*/
+/* SECTION ENDS HERE */
